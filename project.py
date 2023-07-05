@@ -7,7 +7,7 @@ cur=con.cursor()
 cur.execute('create table if not exists post(accno number(10),accname varchar2(10),denom number(7),mupto number(60),duedate date)')
 
 def paswrd_checker():
-    if pswrd.get()=='123' and pswr.get() =='tamogh':
+    if pswrd.get()=='tamogh' and pswr.get() =='123':
         login.destroy()
         po1()
     else:
